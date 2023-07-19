@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.home-img{
+    width: 1000px;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    padding:100px;
+}
+
+.item-1-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 50px;
+    width: 300px;
+}
+
+.text-button{
+    margin-left: 100px;
+    height: 150px;
+    width: 400px;
+}
+
+button{
+    background: hsl(5, 85%, 63%);
+    border: none;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    
+
+}
+button:hover{
+    background: hsl(240, 100%, 5%);
+}
+
+.item-2{
+    width:350px ;
+    height: 650px;
+    padding: 50px;
+    background: hsl(240, 100%, 5%);
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+.new{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+}
+
+.subtitle{
+    font-weight: 700;
+}
+.subtitle:hover{
+    color: hsl(5, 85%, 63%));
+}
+.item-2-txt{
+    color: hsl(236, 13%, 42%);
+}
+
+.container-2{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.c-2-item{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.subtitle-2{
+    font-weight: 700;
+}
+.subtitle-2:hover{
+    color: hsl(35, 77%, 62%));
+}
+.c-2-text{
+    margin-left:30px;
+}
